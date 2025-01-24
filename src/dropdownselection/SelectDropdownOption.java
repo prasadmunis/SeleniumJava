@@ -16,7 +16,7 @@ public class SelectDropdownOption {
 	  
 	  driver.get("https://www.redmine.org/account/register");
 	  driver.findElement(By.xpath("//input[@id='user_mail']")).sendKeys("prasadsmn@gmail.com");
-	  Thread.sleep(2000);
+	  Thread.sleep(5000);
 	  
 	  Select lan = new Select(driver.findElement(By.xpath("//select[@id='user_language']")));
 	  //lan.selectByVisibleText("Indonesian (Bahasa Indonesia)");
