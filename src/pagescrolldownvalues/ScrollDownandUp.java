@@ -19,7 +19,7 @@ public class ScrollDownandUp {
 	  driver.findElement(By.xpath("//*[@id=\"main_navbar\"]/ul/li[2]/a/span")).click();
 	  
 	  JavascriptExecutor jse =(JavascriptExecutor)driver;
-	  jse.executeScript("scroll(0,3500)");
+	  jse.executeScript("scroll(0,3550)");
 	  driver.findElement(By.xpath("/html/body/div/main/div[9]/div/div/p[1]/a")).click();
 	  Thread.sleep(2000);
 	   }
