@@ -14,7 +14,7 @@ WebDriver driver;
 	@Test(dependsOnMethods="method2")
 	public void method1() {
 		
-		driver.findElement(By.name("q")).sendKeys("Puttur");
+		driver.findElement(By.name("q")).sendKeys("Chittoor");
 		driver.findElement(By.name("q")).sendKeys(Keys.ENTER);
 		
 	}
