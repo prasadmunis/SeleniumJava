@@ -22,7 +22,7 @@ class JunitDemoPrograms {
 	@AfterAll
 	static void tearDownAfterClass() throws Exception {
 		
-		driver.quit();
+		//driver.quit();
 	}
 
 
@@ -44,5 +44,12 @@ class JunitDemoPrograms {
 		driver.get("https://www.techlearn.in");
 		
 	}
+	@Test
+	void test4() {
+		
+		driver.get("https://www.x.com");
+		
+	}
+
 
 }
